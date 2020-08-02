@@ -1,16 +1,19 @@
-package com.murillo.algafood.client.model;
+package com.murillo.algafood.client.model.output;
 
 import lombok.Data;
 
 import java.math.BigDecimal;
 
 @Data
-public class RestauranteResumoModel {
+public class
+RestauranteModel {
 
     private Long id;
     private String nome;
     private BigDecimal taxaFrete;
+    private Boolean ativo;
+    private Boolean aberto;
     private CozinhaModel cozinha;
-
+    private EnderecoModel endereco;
 
 }

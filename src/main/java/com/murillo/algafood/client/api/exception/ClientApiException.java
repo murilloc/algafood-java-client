@@ -1,4 +1,4 @@
-package com.murillo.algafood.client.api;
+package com.murillo.algafood.client.api.exception;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;

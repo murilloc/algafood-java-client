@@ -1,4 +1,4 @@
-package com.murillo.algafood.client.model;
+package com.murillo.algafood.client.model.output;
 
 
 import lombok.Data;
